@@ -17,8 +17,8 @@ app.get("/", function(req, res) {
 });
 //Setting up mailchimp with api key and server
 client.setConfig({
-  apiKey: "b1a9d454ca15fc0c978cf565dc1dc4b7-us12",
-  server: "us12",
+  apiKey: "",
+  server: "",
 });
 //As soon as the sign in button is pressed execute this code
 app.post("/", function(req, res) {
@@ -35,7 +35,7 @@ app.post("/", function(req, res) {
 //Uploading data to the server
   const run = async () => {
     try {
-      const response = await client.lists.addListMember("7a54042add", { //mailchimp audience ID
+      const response = await client.lists.addListMember("", { //mailchimp audience ID
         email_address: subscribingUser.email,
         status: "subscribed",
         merge_fields: {
