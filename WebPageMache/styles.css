@@ -1,0 +1,229 @@
+/* General */
+body {
+  margin: 0%;
+  text-align: center;
+}
+.topHr {
+  width: 160px;
+  margin: 30px auto 30px auto;
+  border-top: 3px solid;
+  opacity: 100;
+  border-color: rgb(237, 20, 91);
+}
+.pinky {
+  color: rgb(237, 20, 91);;
+}
+.whitey {
+  color: white;
+}
+.backgroundDiv {
+  position: relative;
+  text-align: center;
+  padding: 0%;
+}
+img {
+  width: 100%;
+  height: 650px;
+}
+
+/* First part */
+
+.strips {
+  color: rgb(237, 20, 91);
+  font-weight: bold;
+}
+.navbarSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  position: absolute;
+  top: 10px;
+  z-index: 1;
+}
+nav {
+  width: 60%;
+  justify-self: center;
+  justify-content: space-between;
+}
+.nav-link {
+  width: 105px;
+}
+.navbar-toggler {
+  background-color: grey;
+}
+.headerSection {
+  position: absolute;
+  top: 250px;
+}
+.showMoreBtn {
+  background-color:rgb(237, 20, 91);
+  border-color:rgb(237, 20, 91);
+  height: 50px;
+  width: 190px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+
+/* Second Part */
+
+.lineJpg {
+  height: 20px;
+  margin-top: -8px;
+}
+.leftHr {
+  width: 160px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: 3px solid;
+  opacity: 100;
+  border-color: rgb(237, 20, 91);
+}
+.arrow {
+  margin-left: 20px;
+}
+.noUnderline {
+  text-decoration: none;
+}
+.macArticleDiv {
+  margin-top:-5px;
+  background-color: rgb(244, 244, 244);
+  height: 630px;
+}
+.psdArticle{
+  text-align: left;
+  padding: 3% 10% 0 10%;
+  margin-top: 35px;
+}
+.macArticle {
+  padding: 0 2% 10% 2%;
+  margin-top: 30px;
+}
+@media screen and (max-width: 991px) {
+  .macbook {
+       width: 500px;
+       height: 320px;
+  }
+}
+.ourServicesSection {
+  margin-top: 100px;
+  padding: 0 20% 0 20%;
+  margin-bottom: 100px;
+}
+.fully {
+  margin-top: 30px;
+}
+.fullyRest {
+  margin-top: 25px;
+}
+.svg {
+justify-content: center;
+}
+
+/* Third Part */
+
+.secondGirlBg {
+  margin-top: 70px;
+  padding: 0;
+  display: flex;
+  position: relative;
+}
+.secondGirlBGSection {
+  align-self: center;
+  position: absolute;
+  padding: 0 30%;
+}
+#botIMG {
+  height: 400px;
+}
+.checkOurPrices {
+  background-color: rgb(244, 244, 244);
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.quotationTop {
+  margin-bottom: 40px;
+}
+.quotationBot {
+  margin-top: 40px;
+}
+.CheckOurPricesParagraph {
+  padding: 0 30%;
+}
+.pushPricesBot {
+  margin-bottom: 70px;
+}
+.greyPricePart {
+  background-color: rgb(90, 90, 90);
+  height: 120px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+}
+.pinkPricePart {
+  background-color: rgb(237, 20, 91);
+  height: 120px;
+  margin-bottom:50px;
+  padding-top: 20px;
+}
+.priceList {
+  background-color: white;
+  padding: 0%;
+  margin-left: 30px;
+  width: 220px;
+  height: 430px;
+  position: relative;
+}
+.buyNow {
+  background-color:rgb(237, 20, 91);
+  border-color:rgb(237, 20, 91);
+  height: 40px;
+  width: 80%;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+.perMonth {
+  margin: 0%;
+  padding: 0%;
+  line-height: 5px;
+}
+.betweenPricesText {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  background-color: rgb(244, 244, 244);
+  border-radius: 25px;
+  width: 180px;
+  height: 40px;
+  padding-top: 7px;
+  font-weight: 500;
+}
+.priceDescription {
+  line-height: 2.5rem;
+}
+
+/* Fourth Part */
+
+.svgWithText {
+  width: 220px;
+  text-align: left;
+  padding-bottom: 30px;
+}
+.svgWithTextSection {
+   margin: 70px 0 40px 0;
+}
+.becamePart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(237, 20, 91);
+  height: 150px;
+}
+.joinUs {
+  background-color:rgb(255, 255, 255);
+  border-color:rgb(237, 20, 91);
+  height: 40px;
+  width: 170px;
+  border-radius: 25px;
+  margin-left: 50px;
+}
+
+/* Fifth Part */
