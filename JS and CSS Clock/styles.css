@@ -1,0 +1,69 @@
+html {
+  background: #018ded url(https://wallpaperaccess.com/full/31189.jpg);
+  background-size: cover;
+  text-align: center;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.numbers {
+  position: absolute;
+  width: 100%;
+  font-size: xx-large;
+  color: #ffe600;
+}
+
+.twelve {
+  margin-bottom: 420px;
+}
+
+.three {
+  left: 210px;
+}
+
+.six {
+  margin-top: 420px;
+}
+
+.nine {
+  right: 210px;
+}
+
+.clock {
+  width: 30rem;
+  height: 30rem;
+  border: 20px solid rgba(105, 34, 34, 0.582);
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #f7d200,
+    inset 0 0 10px rgb(255, 0, 0), 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px); /* account for the height of the clock hands */
+}
+
+.hand {
+  width: 50%;
+  height: 6px;
+  background: rgb(82, 8, 8);
+  position: absolute;
+  top: 50%;
+  /* realistic ticking */
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
