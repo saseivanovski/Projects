@@ -1,6 +1,8 @@
+"use strict";
+
 const numOfDrumPads = document.querySelectorAll(".drum").length;
 // Begin For Loop
-for (const i = 0; i <= numOfDrumPads; i++) {
+for (let i = 0; i <= numOfDrumPads; i++) {
   // Detecting Button Press
 
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
