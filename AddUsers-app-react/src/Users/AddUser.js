@@ -48,6 +48,11 @@ const AddUser = (props) => {
     setError(null);
   };
 
+  const deleteHandler = (id) => {
+    let filter = user.filter((user) => user.id !== id);
+    setUser(filter);
+  };
+
   return (
     <>
       {error && (
@@ -76,7 +81,7 @@ const AddUser = (props) => {
           <Button type="submit">Add User</Button>
         </form>
       </Card>
-      <UserList users={user} />
+      <UserList users={user} deleteHandler={deleteHandler} />
     </>
   );
 };
