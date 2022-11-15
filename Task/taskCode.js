@@ -54,9 +54,9 @@ function produceDetailedReport(data, isDomestic) {
 
 function printProduct(product) {
   console.log("... " + product.name);
-  console.log("Price: " + customRound(product.price));
-  console.log(truncateString(product.description));
-  console.log("Weight: " + (product.weight ? product.weight + "g" : "N/A"));
+  console.log("    Price: $" + customRound(product.price));
+  console.log("    " + truncateString(product.description));
+  console.log("    Weight: " + (product.weight ? product.weight + "g" : "N/A"));
 }
 
 //Costs
